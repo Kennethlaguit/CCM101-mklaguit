@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/YOUR-GITHUB-USERNAME.png" width="150" alt="Mark Kenneth Laguit">
+<img src="https://github.com/Kennethlaguit.png" width="150" alt="Mark Kenneth Laguit">
 
 # Mark Kenneth Laguit
 
@@ -12,11 +12,7 @@
 **CCM101 – Cloud Computing**
 Instructor: **JENKIELYN TORRES**
 
-<p>
-<img src="https://img.shields.io/badge/Cloud-Computing-3B82F6?style=for-the-badge">
-<img src="https://img.shields.io/badge/BSIT-Student-10B981?style=for-the-badge">
-<img src="https://img.shields.io/badge/GitHub-Portfolio-111827?style=for-the-badge">
-</p>
+
 
 </div>
 
@@ -46,10 +42,7 @@ It will be updated throughout the semester as I complete new activities.
 
 * Linux
 * Cloud Computing
-* Docker
-* Kubernetes
-* Networking
-* System Administration
+
 
 ### Development
 
@@ -96,29 +89,7 @@ I am currently working on improving my skills in:
 * Git & GitHub
 ---
 
-## 📂 Repository Structure
 
-```text
-CCM101-mklaguit/
-│
-├── README.md
-│
-└── Laboratory-01-Welcome-to-the-Cloud/
-    │
-    ├── README.md
-    ├── system-information.md
-    ├── about-me.md
-    ├── reflection.md
-    │
-    └── screenshots/
-        ├── checkpoint-1.png
-        ├── checkpoint-2.png
-        ├── checkpoint-3.png
-        ├── checkpoint-4.png
-        └── checkpoint-5.png
-```
-
----
 
 <div align="center">
 
