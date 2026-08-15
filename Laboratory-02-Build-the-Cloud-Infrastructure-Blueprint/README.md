@@ -1,7 +1,8 @@
-# Laboratory 02 - Build the Cloud Infrastructure Blueprint
+# Cloud Computing Course Repository
+Laboratory 02 - Build the Cloud Infrastructure Blueprint
 
 This laboratory focuses on designing a basic cloud infrastructure blueprint.
-# Cloud Computing Course Repository
+
 
 > *A collection of activities, outputs, and learning resources for Cloud Computing.*
 
