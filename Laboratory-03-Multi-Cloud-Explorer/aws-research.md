@@ -9,7 +9,7 @@ AWS operates across 33+ Geographic Regions with over 105 Availability Zones (AZs
 ## Cloud Management Console
 The AWS Management Console provides a web-based graphical interface alongside the AWS CLI and Software Development Kits (SDKs) to provision and monitor infrastructure.
 
-![AWS Console](images/aws-console.png)
+![AWS Console](images/aws-console.png.png)
 
 ## Four Core Services
 * **Compute:** Amazon EC2 (Elastic Compute Cloud) - Scalable virtual servers.
