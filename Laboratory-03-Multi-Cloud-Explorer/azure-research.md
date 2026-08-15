@@ -9,7 +9,7 @@ Azure boasts a global presence across 60+ regions, offering extensive availabili
 ## Cloud Management Console
 The Azure Portal features a customizable, tile-based web interface designed around Resource Groups, paired with Azure CLI and Cloud Shell.
 
-![Azure Console](images/azure-console.png)
+![Linux OS](screenshots/azure-homepage,png.png)
 
 ## Four Core Services
 * **Compute:** Azure Virtual Machines - On-demand, scalable computing instances.
