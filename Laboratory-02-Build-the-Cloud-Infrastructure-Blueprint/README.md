@@ -22,7 +22,7 @@ This repository serves as my organized workspace for all course requirements, in
 ## 👤 Student Information
 
 - **Name:**  Mark Kenneth Laguit
-- **Course/Section:** BSIT
+- **Course/Section:** BSIT-4J
 - **Instructor:** JENKIELYN TORRES
 - **School Year:** 2026–2027
 
