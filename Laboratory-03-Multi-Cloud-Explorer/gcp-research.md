@@ -9,7 +9,7 @@ GCP runs on 40+ regions and 120+ availability zones connected via Google’s pri
 ## Cloud Management Console
 The GCP Console features a clean interface organized by Google Cloud Projects, supported by the `gcloud` CLI tool and Google Cloud Shell.
 
-![GCP Console](images/gcp-console.png)
+![Linux OS](screenshots/gcp-homepage.png.png)
 
 ## Four Core Services
 * **Compute:** Google Compute Engine (GCE) - High-performance virtual machine instances.
