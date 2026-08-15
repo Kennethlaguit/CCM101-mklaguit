@@ -8,25 +8,25 @@ The KillerCoda Playground uses:
 
 Write your actual result here.
 
-![Linux OS](screenshots/linux-os.png)
+![Linux OS](screenshots/linux-os.png.png)
 
 ### CPU Information
 
 Write the important CPU information you found.
 
-![CPU Information](screenshots/linux-cpu.png)
+![CPU Information](screenshots/linux-cpu.png.png)
 
 ### Memory
 
 Write the memory information from `free -h`.
 
-![Memory](screenshots/linux-memory.png)
+![Memory](screenshots/linux-memory.png.png)
 
 ### Disk Space
 
 Write the disk information from `df -h`.
 
-![Disk Space](screenshots/linux-disk.png)
+![Disk Space](screenshots/linux-disk.png.png)
 
 ## Cloud Hosting Options
 
