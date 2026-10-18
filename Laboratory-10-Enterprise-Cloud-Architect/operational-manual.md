@@ -2,21 +2,16 @@
 
 Secure WordPress and MySQL on Ubuntu Server
 
-CCM101 — Cloud Computing
-Laboratory Activity 10
-University of Eastern Pangasinan
-
-Prepared for review by
-MARK KENNETH LAGUIT
-Section: ____________________
+CCM101 - Cloud Computing 
+Enterprise Cloud Architect – Operational Manual 
+Project: Secure Multi-Tier Web Application
+Application Stack: WordPress + MySQL 
+Prepared by
+LAGUIT MARK KENNETH | DOMINGO ANDREKYLE | MAALA JOSHUA | FALINTAG JUNELLE | BULALAYAO RAIVEN
+Section: 4-J
 Instructor: Jenkielyn C. Torres
 Date: 18 October 2026
-
-Format: 5.5 × 8.5 inches, portrait
-Version 1.0 • Local laboratory deployment
-
 This manual explains how to install, connect, deploy, secure, back up and recover the project. It includes screenshots supplied during setup and commands corrected for the Ubuntu account laguit.
-
 Verification status: SSH, UFW and the Nginx browser test are shown in screenshots. A 240 KB database backup was reported. Successful WordPress installation, scheduled execution and full recovery still require evidence. This is a laboratory baseline, not a certified production environment.
 
 # Contents and command locations
