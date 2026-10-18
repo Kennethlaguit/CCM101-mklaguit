@@ -395,34 +395,7 @@ Access denied usually means credentials or grants differ. Unknown database means
 
 Do not delete the database volume to bypass an error. Preserve evidence and backups before a credential recovery or rebuild.
 
-# Observed errors and fixes
 
-![Figure 5. Actual user screenshot: WordPress could not establish a database connection.](manual_assets/database-error.png)
-
-| Message | Action |
-|---|---|
-| docker.sock permission denied | Use sudo docker … or enter sudo -i for the recovery procedure. |
-| SSH connection refused | Check VM is running, SSH active, NAT 2222 → 22. |
-| SSH permission denied | Use laguit and the Ubuntu password. |
-| Tunnel refused inside Ubuntu | Start the tunnel from Windows PowerShell. |
-| Address already in use | Inspect the listener; use Windows tunnel port 8081 if needed. |
-| No configuration file | cd into the project folder containing docker-compose.yml. |
-
-A root shell uses /root as its home. The project remains under /home/laguit. Exit root using exit when administrative work is complete.
-
-# Complete backup design
-
-The earlier 240 KB SQL archive is database-only. A complete WordPress recovery also needs site files, Compose configuration and secret files. The improved script on the next pages captures the database and site files as one matched set.
-
-The script briefly stops WordPress to prevent application writes while the SQL dump and file archive are captured. MySQL remains running. This causes planned downtime during backup; schedule it when the site is unused. The exit handler attempts to restart WordPress even if a backup fails.
-
-Each successful backup directory contains database.sql.gz, wordpress-files.tar.gz, docker-compose.yml, secrets, and a COMPLETE marker. An interrupted backup has no marker and must not be selected for recovery. Local backups are root-owned and private. This procedure assumes InnoDB tables and no external writers [8].
-
-Save the two script sections as one automation-script.sh in the project folder. The complete script is automation-script.sh in this folder. Review the commands and adapt the backup location to your own system.
-
-Copy completed sets to an encrypted external drive or another protected system. Keep at least seven daily sets and a weekly copy according to your storage capacity. Delete older sets only after confirming newer copies and a recent successful restore. No automatic deletion is enabled in this example.
-
-Recovery objective for this lab: at most one day of data loss with a daily backup. Measure recovery time during a real rehearsal; do not claim a time that has not been tested.
 
 # Backup script preparation
 
