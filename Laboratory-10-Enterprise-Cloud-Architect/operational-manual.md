@@ -460,20 +460,7 @@ Access denied usually means credentials or grants differ. Unknown database means
 
 Do not delete the database volume to bypass an error. Preserve evidence and backups before a credential recovery or rebuild.
 
-# Observed errors and fixes
 
-![Figure 5. Actual user screenshot: WordPress could not establish a database connection.](manual_assets/database-error.png)
-
-| Message | Action |
-|---|---|
-| docker.sock permission denied | Use sudo docker … or enter sudo -i for the recovery procedure. |
-| SSH connection refused | Check VM is running, SSH active, NAT 2222 → 22. |
-| SSH permission denied | Use laguit and the Ubuntu password. |
-| Tunnel refused inside Ubuntu | Start the tunnel from Windows PowerShell. |
-| Address already in use | Inspect the listener; use Windows tunnel port 8081 if needed. |
-| No configuration file | cd into the project folder containing docker-compose.yml. |
-
-A root shell uses /root as its home. The project remains under /home/laguit. Exit root using exit when administrative work is complete.
 
 # Complete backup design
 
