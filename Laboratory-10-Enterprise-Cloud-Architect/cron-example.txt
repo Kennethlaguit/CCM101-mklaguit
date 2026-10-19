@@ -1,2 +1,0 @@
-PROJECT=/home/laguit/CCM101-mlaguit/Laboratory-10-Enterprise-Cloud-Architect
-0 2 * * * "$PROJECT/automation-script.sh" >> /var/log/ccm101-backup.log 2>&1
